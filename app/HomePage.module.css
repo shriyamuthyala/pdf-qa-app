@@ -1,0 +1,32 @@
+.container {
+  min-height: 100vh;
+  background: #222831;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 50px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+  padding: 46px 50px 38px 50px;
+  width: 100%;
+  max-width: 560px;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #222831;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 32px;
+  letter-spacing: 1px;
+}
+
+.hr {
+  border: none;
+  border-top: 2px solid #e0e0e0;
+  margin: 36px 0 30px 0;
+}

@@ -1,0 +1,39 @@
+.uploadForm {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.fileInput {
+  font-size: 1rem;
+  padding: 5px;
+  border-radius: 8px;
+  border: 1.5px solid #bdbdbd;
+  background: #fafbfd;
+}
+
+.uploadBtn {
+  background: #00adb5;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.07rem;
+  font-weight: 500;
+  padding: 10px 24px;
+  cursor: pointer;
+  transition: background 0.18s;
+}
+
+.uploadBtn:disabled {
+  background: #b0bec5;
+  cursor: not-allowed;
+}
+
+.fileName {
+  font-size: 0.98rem;
+  color: #444;
+  font-style: italic;
+}
